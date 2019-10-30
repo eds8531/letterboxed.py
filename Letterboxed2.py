@@ -3,7 +3,7 @@
 #12 letters are place on the sides of a square and the player must try to form words by connecting letters.
 #The game is done when the player has used all of the letters on the outside of the box to form words.
 #Restrictions:
-#Letters from the same side of the box cannot be used next to one another is the same word. For Example: if ['M', 'A', 'Y'] are on the same side of a box, The player cannot form the word 'MARK'. They could form the word 'AIM' assuming 'I' is available on another side.
+#Letters from the same side of the box cannot be used next to one another in the same word. For Example: if ['M', 'X', 'A'] are on the same side of a box, The player cannot form the word 'MARK'. They could form the word 'AIM' assuming 'I' is available on another side.
 #While the first word can begin with any letter, all other words must begin with the last letter of the words before them. For Example: if the first word is 'MARK', the second word must begin with a 'K'.
 
 #Right now the program works, but there are a couple of issues it may have.
