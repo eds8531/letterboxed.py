@@ -1,6 +1,20 @@
+#This program is designed to solve a the letterboxed puzzle game from the NYTimes website in 2 words. If it can't solve the puzzle in 2 words, it will try to solve it in 3.
+#The game works as follows:
+#12 letters are place on the sides of a square and the player must try to form words by connecting letters.
+#The game is done when the player has used all of the letters on the outside of the box to form words.
+#Restrictions:
+#Letters from the same side of the box cannot be used next to one another is the same word. For Example: if ['M', 'A', 'Y'] are on the same side of a box, The player cannot form the word 'MARK'. They could form the word 'AIM' assuming 'I' is available on another side.
+#While the first word can begin with any letter, all other words must begin with the last letter of the words before them. For Example: if the first word is 'MARK', the second word must begin with a 'K'.
+
+#Right now the program works, but there are a couple of issues it may have.
+#1. I may not be using the exact list of words the NYTimes finds acceptable. So far this has meant that my porgram will occasionally produce solutions with proper names that the puzzle will not accept. I don't really care about this bug, however.
+#2. The program runs very slow owing to the way I eliminate words that violate the above conditions. I find it very hard to run loops that eliminate items in a list using relatively complicated conditions like the ones above. If anyone could point me to a better way to perform this task, it would help me with other projects.
+
+#Thanks and enjoy! Any feedback is welcome.
+
 import pickle
 
-#This part takes in the letters from the letterbox puts them in a list and also divides them into sublist 1 - 4.
+#This part takes in the letters from the letterbox puts them in a list and also divides them into sublist 1 - 4 based on what side they are on.
 
 letters = input('Enter Letters> ')
 
