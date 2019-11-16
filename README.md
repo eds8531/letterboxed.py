@@ -18,13 +18,21 @@ Right now the program works, but there are a couple of issues it may have.
 SAMPLE BOX:
 
   ---V---L---I---
+  
  |.................|
+ 
  N...............G
+ 
  |.................|
+ 
  H...............E
+ 
  |.................|
+ 
  R...............X
+ 
  |.................|
-  ---M---W---O---
+ 
+ ---M---W---O---
 
 #Thanks and enjoy! Any feedback is welcome.
