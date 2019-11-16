@@ -17,14 +17,22 @@ Right now the program works, but there are a couple of issues it may have.
 
 SAMPLE BOX:
 
-  ---V---L---I---\n
- |              |\n
- N              G\n
- |              |\n
- H              E\n
- |              |\n
- R              X\n
- |              |\n
-  ---M---W---O---\n
+  ---V---L---I---
+  
+ |              |
+ 
+ N              G
+ 
+ |              |
+ 
+ H              E
+ 
+ |              |
+ 
+ R              X
+ 
+ |              |
+ 
+ ---M---W---O---
 
 #Thanks and enjoy! Any feedback is welcome.
