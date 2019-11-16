@@ -15,4 +15,16 @@ Right now the program works, but there are a couple of issues it may have.
 1. I may not be using the exact list of words the NYTimes finds acceptable. So far this has meant that the program will occasionally produce solutions with proper nouns that the puzzle will not accept. I don't really care about this bug, however.
 2. The program runs very slowly owing to the way I eliminate words that violate the above conditions. I find it very hard to run loops that eliminate items in a list using relatively complicated conditions like the ones above. If anyone could point me to a better way to perform this task, it would help me with other projects.
 
+SAMPLE BOX:
+
+  ---V---L---I---
+ |              |
+ N              G
+ |              |
+ H              E
+ |              |
+ R              X
+ |              |
+  ---M---W---O---
+
 #Thanks and enjoy! Any feedback is welcome.
